@@ -1,11 +1,14 @@
 def fibonacci(n):
     a, b = 0, 1
-    resultats = []
-    while a < n:
-        resultats.append(a)
+    i=2
+    fib = []
+    fib.append(a)
+    fib.append(b)
+    while i <= n+1:
+        fib.append(a+b)
         a, b = b, a + b
-    return resultats
+        i=i+1
+    return fib
 
 # Exemple d'utilisation
-for x in range(10)
-print('Suite no :', x+1," est : ",fibonacci(x))
+print('Suite no :', 10," est : ",fibonacci(10))
