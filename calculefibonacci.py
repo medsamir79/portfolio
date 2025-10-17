@@ -10,5 +10,5 @@ def fibonacci(n):
         i=i+1
     return fib
 
-# Exemple d'utilisation
-print('Suite no :', 10," est : ",fibonacci(10))
+X=input('Entrez un nombre pour calculer la suite de Fibonacci jusqu\'à ce nombre : ')
+print('Suite no :', X," est : ",fibonacci(int(X)))
